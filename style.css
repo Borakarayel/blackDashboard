@@ -1,7 +1,6 @@
 *{
     background-color:#121212;
     color: goldenrod;
-    /* border: 0.1px solid red; */
     box-sizing: border-box;
     font-family: 'Roboto', 'Courier New', Courier, monospace;
 
@@ -11,8 +10,8 @@ p {
 }
 h1 {
     margin-top: 0;
-    margin-bottom: 0;
     font-size: 16px;
+
 }
 
 .avatar {
@@ -24,11 +23,9 @@ h1 {
 .darkgrey{
     background-color: #232323;
 }
-
 .grey{
     background-color: rgb(47, 47, 47);
 }
-
 .lightgrey{
     background-color: gray;
 }
@@ -122,18 +119,20 @@ justify-content: space-between;
 }
 
 .ann p{background-color: rgb(47, 47, 47);
-    padding: 1px 5px;
     font-size: 13.5px;
-    margin-bottom: 0;;
+    margin: 0px 5px 5px 5px;
 }
 p:nth-of-type(odd) {
     font-weight: 700;
     color: goldenrod;
-    margin: 0;
+}
+
+.ann p:first-child{
+    margin: 5px 5px 5px 5px;
+
 }
 .trendingHeader{
     grid-area: 5/4/6/5;
-
 }
 
 .trending {
@@ -141,20 +140,23 @@ p:nth-of-type(odd) {
     }
 
 .trendcard {
+    background-color: rgb(47, 47, 47);
     display: flex;
     gap: 5px;
     align-items: center;
-    border-radius: 0% 0% 30% 0%;
+    border-radius: 3% 3% 30% 3%;
+    border: 1px solid black;
     margin: 10px 30px;
-    padding: 2px ;
+    padding: 4px ;
     width: 250px;
     height: 50px;
 }
 .trendcard p, a{
-    background-color: gray;
+    background-color: rgb(47, 47, 47);
     padding: 5px;
     font-size: 13.5px;
     margin-bottom: 0;
+    margin: 0px 0px 0px 0px;
 }
 
 .footer {
