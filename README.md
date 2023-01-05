@@ -3,4 +3,4 @@ Project: Admin Dashboard
 
 
 
-<a href="https://borakarayel.github.io/Dash-Dashboard/"> Demo Link </a>
+<a href="https://borakarayel.github.io/blackDashboard/"> Demo Link </a>
